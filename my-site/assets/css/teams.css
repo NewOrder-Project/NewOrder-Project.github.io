@@ -1,0 +1,12 @@
+.row {
+  display: flex;
+}
+
+.column {
+  word-wrap: break-word;
+  width: 1200px;
+  flex: 50%;
+  float:left;
+  gap: 100px
+}
+
