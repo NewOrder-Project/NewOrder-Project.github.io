@@ -7,6 +7,23 @@
   width: 1200px;
   flex: 50%;
   float:left;
-  gap: 100px
+  gap: 100px;
+  border-spacing: 50px 0;
+  column-gap: 40px;
+  hyphens: auto;
+  font-size: smaller;
+  text-align: justify
 }
+
+
+.div{
+  column-gap: 40px;
+}
+
+.content-box {
+  column-count: 2;
+  column-gap: 100px;
+}
+
+
 
