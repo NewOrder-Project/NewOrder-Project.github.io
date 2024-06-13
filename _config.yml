@@ -17,11 +17,11 @@ linkedin_username:
 google_analytics:   UA-XXXXXXXXX-X # out your google-analytics code
 
 header_pages:
-   - index.html
-   - about.html
-   - team.html
-   - 404.html
-   - contact.html
+   - my-site/index.html
+   - my-site/about.html
+   - my-site/team.html
+   - my-site/404.html
+   - my-site/contact.html
 
 
 # Build settings
