@@ -36,11 +36,11 @@ plugins:
 # If you want to link only specific pages in your header, uncomment
 # this and add the path to the pages in order as they should show up
 header_pages:
-   - index.html
-   - about.html
-   - team.html
-   - 404.html
-   - contact.html
+   - my-site/index.html
+   - my-site/about.html
+   - my-site/team.html
+   - my-site/404.html
+   - my-site/contact.html
 
 # Exclude from processing.
 # The following items will not be processed, by default.
