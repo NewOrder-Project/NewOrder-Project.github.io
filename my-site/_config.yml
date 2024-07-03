@@ -19,13 +19,13 @@
 # in the templates via {{ site.myvariable }}.
 
 title: New Order Project
-email: your-email@example.com
+email: katarina.boland@hhu.de
 description: >- # this means to ignore newlines until "baseurl:"
   Understanding the erosion of the traditional knowledge order in scientific online discourse and its impact in times of crisis
 baseurl: "/my-site" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: NewOrder
-github_username:  NewOrder
+github_username: NewOrder-Project
 include:
   - my-site
 # Build settings
