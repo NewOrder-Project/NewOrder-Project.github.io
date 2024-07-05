@@ -7,7 +7,7 @@ baseurl:            "/my-site"
 url:                "https://startbootstrap.github.io"
 
 # Social Profiles
-github_username:    NewOrder-Project
+github_username: NewOrder-Project
 instagram_username:  
 linkedin_username:
 
@@ -19,6 +19,7 @@ header_pages:
    - my-site/about.html
    - my-site/team.html
    - my-site/posts/index.html
+   - my-site/news/index.html
    - my-site/contact.html
 
 

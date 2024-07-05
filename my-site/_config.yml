@@ -40,7 +40,9 @@ header_pages:
    - /my-site/about.html
    - /my-site/team.html
    - /my-site/posts/index.html
+   - /my-site/news/index.html
    - /my-site/contact.html
+
 
 # Exclude from processing.
 # The following items will not be processed, by default.
