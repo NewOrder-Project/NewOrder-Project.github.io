@@ -33,6 +33,7 @@ layout: default
         {% for post in site.posts limit : 5 %}
 
         <article class="post-preview">
+          <!-- Hier musste prepend: site.baseurl zwischen .url und replace entfernt werden damit kein my-site/my-site mehr auftritt-->
           <a href="{{ post.url | replace: '//', '/' }}">
             <h2 class="post-title">{{ post.title }}</h2>
             {% if post.subtitle %}
