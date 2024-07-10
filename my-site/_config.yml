@@ -32,6 +32,8 @@ include:
 theme: "jekyll-theme-clean-blog"
 plugins:
   - jekyll-feed
+  - jekyll-paginate
+  - jekyll-sitemap
 
 markdown:           kramdown
 paginate:           5
