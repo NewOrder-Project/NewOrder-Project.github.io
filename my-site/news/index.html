@@ -2,13 +2,11 @@
 layout: page
 title: News
 description:
-background: '/PATH_TO_IMAGE'
 ---
-
 {% for post in paginator.posts %}
 
 <article class="post-preview">
-  <a href="{{ post.url | replace: '//', '/' }}">
+  <a href="{{ post.url | prepend: site.baseurl | replace: '//', '/' }}">
     <h2 class="post-title">{{ post.title }}</h2>
     {% if post.subtitle %}
     <h3 class="post-subtitle">{{ post.subtitle }}</h3>
@@ -22,8 +20,7 @@ background: '/PATH_TO_IMAGE'
     {% else %}
     {{ site.author }}
     {% endif %}
-    on {{ post.date | date: '%B %d, %Y' }} &middot; {% include read_time.html content=post.content %}
-  </p>
+    on {{ post.date | date: '%B %d, %Y' }} &middot; {% include read_time.html content=post.content %}</p>
 </article>
 
 <hr>
@@ -36,12 +33,13 @@ background: '/PATH_TO_IMAGE'
 <div class="clearfix">
 
   {% if paginator.previous_page %}
-  <a class="btn btn-primary float-left" href="{{ paginator.previous_page_path  | replace: '//', '/' }}">&larr;
+  <a class="btn btn-primary float-left" href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}">&larr;
     Newer<span class="d-none d-md-inline"> Posts</span></a>
   {% endif %}
 
   {% if paginator.next_page %}
-  <a class="btn btn-primary float-right" href="{{ paginator.next_page_path  | replace: '//', '/' }}">Older<span class="d-none d-md-inline"> Posts</span> &rarr;</a>
+  <a class="btn btn-primary float-right" href="{{ paginator.next_page_path | prepend: site.baseurl | replace: '//', '/' }}">Older<span
+      class="d-none d-md-inline"> Posts</span> &rarr;</a>
   {% endif %}
 
 </div>
