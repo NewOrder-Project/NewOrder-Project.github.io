@@ -18,7 +18,7 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: New Order Project
+title: NewOrder Project
 email: katarina.boland@hhu.de
 description: >- # this means to ignore newlines until "baseurl:"
   Understanding the erosion of the traditional knowledge order in scientific online discourse and its impact in times of crisis
