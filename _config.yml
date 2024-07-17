@@ -1,5 +1,5 @@
 title:              NewOrder Project
-email:              katarina.boland@hhu.de
+email:              katarina[dot]boland[at]hhu.de
 description:        Understanding the erosion of the traditional knowledge order in scientific online discourse and its impact in times of crisis
 author:             NewOrder Project
 basewebsite:        /my-site
@@ -14,6 +14,7 @@ linkedin_username:
 
 # Add your google-analytics ID here to activate google analytics
 google_analytics:   UA-XXXXXXXXX-X # out your google-analytics code
+future: true  # allows posts with a date in the future, necessary for link to newOrder About in the news page
 
 header_pages:
    - my-site/index.html

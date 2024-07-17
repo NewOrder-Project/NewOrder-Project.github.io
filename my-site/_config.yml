@@ -19,13 +19,14 @@
 # in the templates via {{ site.myvariable }}.
 
 title: NewOrder Project
-email: katarina.boland@hhu.de
+email: katarina[dot]boland[at]hhu.de
 description: >- # this means to ignore newlines until "baseurl:"
   Understanding the erosion of the traditional knowledge order in scientific online discourse and its impact in times of crisis
 baseurl: "/my-site" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 github_username: NewOrder-Project
 twitter_username: everydaymediaWG
+future: true  # allows posts with a date in the future, necessary for link to newOrder About in the news page
 include:
   - my-site
 # Build settings
