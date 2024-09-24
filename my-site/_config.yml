@@ -43,6 +43,7 @@ paginate_path:      "/news/page:num/"
 # this and add the path to the pages in order as they should show up
 header_pages:
    - /my-site/index.html
+   - /my-site/workshops.html
    - /my-site/about.html
    - /my-site/team.html
    - /my-site/posts/index.html
