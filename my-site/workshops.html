@@ -6,8 +6,27 @@ background: '/PATH_TO_IMAGE'
 ---
 <h2>2024</h2>
 <ul>
-    <li><b><a href="https://beyondfacts2024.wordpress.com/)"> Beyond Facts 2024 </a></b>  Co-Chairs: Prof. Dr. Stefan Dietze,
-    Dr.Dimitar Dimitrov, 13 May until 17 May in Singapore,
-      collocated with <a href="https://www2024.thewebconf.org/"> The Web Conference 2024 </a>  </li>
+    <li>
+        <details>
+        13.05 - 17.05.2024: <b><span id="trigger"> Beyond Facts 2024 </span> </b>  Co-Chairs: Prof. Dr. Stefan Dietze,
+    Dr.Dimitar Dimitrov, Singapore,
+      collocated with <a href="https://www2024.thewebconf.org/"> The Web Conference 2024 </a>
+            <br>
+            Lorem ipsum
+    </details>
+    </li>
 </ul>
+
+
+<script>
+  // Get the details and span elements
+  const details = document.querySelector('details');
+  const trigger = document.getElementById('trigger');
+
+  // Add a click event listener to the "ruin" span
+  trigger.addEventListener('click', function(event) {
+    event.preventDefault(); // Prevent the default behavior of the summary
+    details.open = !details.open; // Toggle the open state of the details
+  });
+</script>
 
