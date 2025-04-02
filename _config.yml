@@ -20,7 +20,7 @@ header_pages:
    - my-site/index.html
    - my-site/about.html
    - my-site/team.html
-   - my-site/posts/index.html
+   - my-site/posts.html
    - my-site/news/index.html
    - my-site/contact.html
 
