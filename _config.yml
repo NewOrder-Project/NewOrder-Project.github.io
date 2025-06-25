@@ -18,7 +18,7 @@ future: true  # allows posts with a date in the future, necessary for link to ne
 
 header_pages:
    - my-site/index_with_news.html
-   - my-site/results.html
+   - my-site/insights.html
    - my-site/team.html
    - my-site/posts.html
    - my-site/news/index_with_news.html
