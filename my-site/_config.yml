@@ -42,12 +42,12 @@ paginate_path:      "/news/page:num/"
 # If you want to link only specific pages in your header, uncomment
 # this and add the path to the pages in order as they should show up
 header_pages:
-   - /my-site/index.html
+   - /my-site/index_with_news.html
    - /my-site/workshops.html
    - /my-site/about.html
    - /my-site/team.html
-   - /my-site/posts/index.html
-   - /my-site/news/index.html
+   - /my-site/posts/index_with_news.html
+   - /my-site/news/index_with_news.html
    - /my-site/contact.html
 
 

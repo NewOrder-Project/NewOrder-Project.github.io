@@ -17,11 +17,11 @@ google_analytics:   UA-XXXXXXXXX-X # out your google-analytics code
 future: true  # allows posts with a date in the future, necessary for link to newOrder About in the news page
 
 header_pages:
-   - my-site/index.html
+   - my-site/index_with_news.html
    - my-site/about.html
    - my-site/team.html
    - my-site/posts.html
-   - my-site/news/index.html
+   - my-site/news/index_with_news.html
    - my-site/contact.html
 
 
